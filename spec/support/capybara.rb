@@ -3,4 +3,4 @@
 require 'capybara/rails'
 require 'capybara/rspec'
 
-Capybara.server = :webrick
+Capybara.server = :puma, { Silent: true }

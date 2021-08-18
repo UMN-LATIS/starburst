@@ -32,11 +32,11 @@ Gem::Specification.new do |spec|
     '--quiet'
   ]
 
-  spec.add_runtime_dependency 'rails', '>= 4.2.0', '< 6.1'
-
+  spec.add_runtime_dependency 'rails', '>= 4.2.0', '< 6.2'
+  
   spec.add_development_dependency 'appraisal', '~> 2'
   spec.add_development_dependency 'byebug', '>= 10.0.2', '< 12'
-  spec.add_development_dependency 'capybara', '~> 3.1'
+  spec.add_development_dependency 'capybara', '~> 3.35'
   spec.add_development_dependency 'database_cleaner-active_record', '~> 1.8'
   spec.add_development_dependency 'factory_bot_rails', '>= 4.11.1', '< 6'
   spec.add_development_dependency 'rspec-rails', '~> 4.0'
@@ -45,5 +45,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '>= 0.17.1', '< 1'
   spec.add_development_dependency 'sprockets-rails', '~> 3.2'
   spec.add_development_dependency 'sqlite3', '~> 1.4'
+  spec.add_development_dependency 'rexml', '~> 3.2'
+  spec.add_development_dependency 'puma', '~> 3.2'
   spec.add_development_dependency 'webdrivers', '~> 4.0'
 end
